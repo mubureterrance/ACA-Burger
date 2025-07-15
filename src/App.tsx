@@ -74,7 +74,7 @@ function App() {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
 
   const addIngredient = (ingredient: Ingredient) => {
-  setIngredients([ingredient, ...ingredients]); // ✅ Now it's type-safe
+  setIngredients([ingredient, ...ingredients]); 
 };
 
   const removeIngredient = (index: number) => {
