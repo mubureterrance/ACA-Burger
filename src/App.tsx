@@ -88,9 +88,6 @@ function App() {
         <button className="btn-lettuce" onClick={() => addIngredient('lettuce')}>Add Lettuce</button>
         <button className="btn-meat" onClick={() => addIngredient('meat')}>Add Meat</button>
         <button className="btn-tomato" onClick={() => addIngredient('tomato')}>Add Tomato</button>
-      </div>
-      
-      <div>
         <button className="btn-reset" onClick={() => setIngredients([])}>Reset</button>
       </div>
 
