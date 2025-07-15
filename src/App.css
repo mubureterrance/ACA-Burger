@@ -1,0 +1,149 @@
+/* Reset default margins */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Burger container */
+.burger-container {
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  width: 240px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Ingredient base */
+.ingredient {
+  width: 200px;
+  height: 30px;
+  margin: 6px auto;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease;
+}
+
+.ingredient-wrapper:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  transition: all 0.2s ease;
+}
+
+/* Specific ingredients */
+.top-bread {
+  background: #f5d398;
+  height: 40px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.bottom-bread {
+  background: #e6b35c;
+  height: 30px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.lettuce {
+  background: #4caf50;
+}
+
+.meat {
+  background: #8b4513;
+}
+
+.tomato {
+  background: #ff6347;
+}
+
+/* Buttons */
+button {
+  margin: 0.5rem;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Color-coded buttons */
+.btn-lettuce {
+  background-color: #4caf50;
+}
+.btn-lettuce:hover {
+  background-color: #3e8e41;
+}
+
+.btn-meat {
+  background-color: #8b4513;
+}
+.btn-meat:hover {
+  background-color: #6a3210;
+}
+
+.btn-tomato {
+  background-color: #ff6347;
+}
+.btn-tomato:hover {
+  background-color: #e5533a;
+}
+
+.btn-reset {
+  background-color: #888;
+  margin-top: 1rem;
+}
+.btn-reset:hover {
+  background-color: #666;
+}
+
+.instructions {
+  margin: 2rem auto;
+  max-width: 500px;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  color: #333;
+  font-size: 1rem;
+}
+
+.instructions h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.instructions ul {
+  text-align: left;
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.instructions li {
+  margin-bottom: 0.5rem;
+}
+
+.instructions p {
+  font-style: italic;
+  color: #555;
+}
+
